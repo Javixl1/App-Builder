@@ -128,9 +128,13 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{09D40014-077A-4998-9C86-784D68CDE84F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E1894FB2-1630-483E-A07E-5EC034E53086}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 </Property>
@@ -262,9 +266,9 @@
 			<Item Name="My Package" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
 				<Property Name="IPK_lastBuiltPackage" Type="Str"></Property>
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
-				<Property Name="IPK_startup.Target.Child" Type="Str"></Property>
-				<Property Name="IPK_startup.Target.Destination" Type="Str"></Property>
-				<Property Name="IPK_startup.Target.Source" Type="Str"></Property>
+				<Property Name="IPK_startup.Target.Child" Type="Str">{736D34A3-323C-40E7-AEDB-C2D5BDBBFBA5}</Property>
+				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
+				<Property Name="IPK_startup.Target.Source" Type="Ref">/myRIO-1900/Build Specifications/My Real-Time Application</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
@@ -286,7 +290,10 @@
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Application Software</Property>
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">0</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/myRIO-1900/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">Project example</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
@@ -295,7 +302,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6B64581D-E3B4-41C6-A25A-C5DD551D00AD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2B451DD2-1169-4659-8A91-8417BA284D96}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C4BFEA3D-920B-401A-B6C8-691BA05A6D9F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
@@ -317,9 +324,13 @@
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2C54CDD-E5CC-472C-945D-A55862CEF327}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1D685F8-2885-4518-8396-7567EEE80634}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/myRIO-1900/my RT main app.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 </Property>
