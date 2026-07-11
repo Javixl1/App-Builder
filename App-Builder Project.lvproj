@@ -14,7 +14,6 @@
 			<Item Name="Windows GUI Main.vi" Type="VI" URL="../Windows GUI Main.vi"/>
 		</Item>
 		<Item Name="App-Builder Library.lvlib" Type="Library" URL="../App-Builder Library.lvlib"/>
-		<Item Name="Build specification.ctl" Type="VI" URL="../Builder/Build specification.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -153,7 +152,7 @@
 	</Item>
 	<Item Name="myRIO-1900" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">myRIO-1900</Property>
-		<Property Name="alias.value" Type="Str">10.0.0.46</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,762F;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
