@@ -118,16 +118,54 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E490717D-0CCD-4E72-AD4C-E46A0FAC93F9}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">My Application V1.0.0.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">My Application v1.0.0.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/My Application V1.0.0.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF1D5ADF-3153-40FA-9133-94C1433B3B03}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{C1101E3D-E5AD-431A-BFFE-4F558F4EEE84}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{39D8F168-FCD0-4EE5-B6F1-7CB91A9B55BF}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{83CE1EEB-CD92-40F6-9ACB-9EC0B2C4DE44}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{DC07448F-A18C-4336-84FA-A0FCC77F8439}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{02571478-FA3F-4718-BA4B-534CD9296FCA}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{27F7C48C-7C4B-465B-9DA9-F5F7A5D09CF2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{47A41B3C-8076-4DF4-A625-489B0506B86E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{4F4D883C-E006-426E-A497-8A08374F09EE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{0852D1F1-AC69-49EC-B1EB-2EFC96755A9D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{282BF7D2-5EFB-4364-92EF-9738DAD90A38}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{4CDEF72B-C131-4213-A503-2BAFC189F0ED}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{A8104041-CD01-45E2-BE9F-0A15C9288B73}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{BE060E98-AA52-4196-BE0F-80AA22EA21A8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{6BDEFA1C-B1E8-4203-A8B7-7AE9445C1B92}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{02FD6FC9-0885-4528-B034-11FAA0478AC5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{68E0FC9C-DFA9-4407-A8D3-5F24AC84D7EB}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{14F546F7-7AB9-4C93-A25E-85434F45BAE8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{EE83C05A-7574-492B-92F7-37386DCEC957}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{EF3C706F-E3B9-43CC-BEFD-81B6776139EE}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{6880FD52-9D81-4EA3-81D1-927892FF4F7B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{1EBBB3C9-1F8C-486F-BAE9-1F8E2DDB3070}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{551298C5-7445-412F-B628-2E8953E945D0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{3D086D4D-FE4D-4708-ADF1-111EA2247798}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{8BADDC1C-C6D3-4395-9B20-EDA0ED2DC1D1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{DD3B4426-A7F0-4D55-8CAB-C7231BF880A1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{C7E49FAF-0309-4995-936C-DD2FAC3DAF98}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{BF539D60-7EBD-4F32-B207-4929267CC233}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{CEFBCC09-10D0-4247-9B81-5511350D3B9D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{88305542-4D57-43A5-8CA2-D1FA39927866}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{92B44ABA-5C48-4532-A39F-118B9A4A4EC3}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{A31EA8C5-D923-4A13-AAAE-D4FFCBA6E217}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">MyApplicationV100</Property>
+				<Property Name="Exe_actXServerName" Type="Str">MyApplicationV100</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{07086D08-8DE0-4625-A0AD-351EF54F6193}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
@@ -139,7 +177,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 </Property>
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8B3DFF7C-77C1-4A5D-BCA9-4426C9305CDC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">My Application V1.0.0.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">My Application v1.0.0.41</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -168,10 +206,10 @@
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/My Real-Time Application v1.0.0.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -263,7 +301,7 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Package" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">project-example_1.0.0-3_armv7a-vfp.ipk</Property>
+				<Property Name="IPK_lastBuiltPackage" Type="Str">project-example_1.0.0-10_armv7a-vfp.ipk</Property>
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
 				<Property Name="IPK_startup.Target.Child" Type="Str">{736D34A3-323C-40E7-AEDB-C2D5BDBBFBA5}</Property>
 				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
@@ -271,7 +309,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">4</Property>
+				<Property Name="PKG_buildNumber" Type="Int">11</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">My Package</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str"></Property>
@@ -285,7 +323,7 @@
 				<Property Name="PKG_maintainer" Type="Str">Unregistered &lt;&gt;</Property>
 				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Package/Package</Property>
 				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="PKG_packageName" Type="Str">project-example-v1.0.0.0</Property>
+				<Property Name="PKG_packageName" Type="Str">project-example</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Application Software</Property>
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
@@ -295,6 +333,8 @@
 				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">Project example</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+				<Property Name="TgtF_packageName" Type="Str">My Package v1.0.0.10</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">My Package v1.0.0.5</Property>
 			</Item>
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_INI_aliasGUID" Type="Str">{6B64581D-E3B4-41C6-A25A-C5DD551D00AD}</Property>
@@ -312,9 +352,9 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{60010568-5045-4F9A-B741-2DA705D9E4E3}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">MyRTapp V1.0.0.0.rtexe</Property>
+				<Property Name="Destination[0].destName" Type="Str">My Real-Time Application v1.0.0.14.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/MyRTapp V1.0.0.0.rtexe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -323,7 +363,7 @@
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{18EC1F59-0995-425E-87FF-C8AB1B740FB3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D37FA882-83EB-4069-9DD6-1BAC42AE2E17}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/myRIO-1900/my RT main app.vi</Property>
@@ -335,7 +375,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 </Property>
 				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{736D34A3-323C-40E7-AEDB-C2D5BDBBFBA5}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">MyRTapp V1.0.0.0.rtexe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">My Real-Time Application v1.0.0.18.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
