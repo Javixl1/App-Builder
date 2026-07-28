@@ -121,7 +121,7 @@
 				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">My Application v1.0.0.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/My Application V1.0.0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/My Application v1.0.0.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -177,7 +177,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 </Property>
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8B3DFF7C-77C1-4A5D-BCA9-4426C9305CDC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">My Application v1.0.0.41</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">My Application v1.0.0.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
