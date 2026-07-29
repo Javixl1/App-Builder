@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="My example" Type="Folder">
+			<Item Name="Project example.lvproj" Type="Document" URL="../Project example/Project example.lvproj"/>
+		</Item>
 		<Item Name="App-Builder Library.lvlib" Type="Library" URL="../App-Builder Library.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -105,6 +108,7 @@
 			<Item Name="My Source Distribution" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7A2CCB0A-EB00-4F87-9112-5CE53DF12CEA}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Builder app</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Source Distribution</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -117,17 +121,19 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../VIPM/Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9BB7D56B-0819-46D3-9EB9-1252D971D817}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution</Property>
+				<Property Name="Destination[0].path" Type="Path">../VIPM/Source Distribution</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../VIPM/Source Distribution/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{46219E40-3296-4AFA-95B7-7954314BF5EB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3031832B-FD3E-4094-B6F9-02C14DF77AEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib</Property>
@@ -179,18 +185,21 @@
 				<Property Name="Source[14].propertiesCount" Type="Int">8</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib/GUI Builder.lvclass/Public/GUI.vi</Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[2].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[15].properties[2].value" Type="Str">Centered</Property>
-				<Property Name="Source[15].properties[3].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[15].properties[3].value" Type="Str">Floating</Property>
-				<Property Name="Source[15].properties[4].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[15].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[15].newName" Type="Str">Builder GUI.vi</Property>
+				<Property Name="Source[15].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[15].properties[0].value" Type="Str">Centered</Property>
+				<Property Name="Source[15].properties[1].type" Type="Str">Window behavior</Property>
+				<Property Name="Source[15].properties[1].value" Type="Str">Floating</Property>
+				<Property Name="Source[15].properties[2].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[15].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[15].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[15].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[15].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[15].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[15].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/My example/Project example.lvproj</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib/GUI Builder.lvclass/Public/Build.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
@@ -208,21 +217,22 @@
 				<Property Name="Source[2].properties[6].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">7</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib/Builder.lvclass/Public/Create.vi</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib/Builder.lvclass/Public/Open Builder.vi</Property>
+				<Property Name="Source[3].newName" Type="Str">Open Builder.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Show toolbar</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[5].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[3].properties[5].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[6].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[3].properties[6].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[6].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[6].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">7</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -264,7 +274,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 		</Item>
 	</Item>
