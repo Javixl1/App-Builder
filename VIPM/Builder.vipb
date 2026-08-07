@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-07-27 20:23:09" Modified_Date="2026-07-28 22:31:51" Creator="javix" Comments="" ID="1661f4e4da4d8021334948456b1cd4c9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-07-27 20:23:09" Modified_Date="2026-07-31 23:26:26" Creator="javix" Comments="" ID="8a010c61fc486791f93725a7f2b5d9cd">
   <Library_General_Settings>
     <Package_File_Name>Javier_Lopez_lib_Builder</Package_File_Name>
-    <Library_Version>1.0.0.9</Library_Version>
+    <Library_Version>1.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -33,7 +33,7 @@ The package contain an User Interface friendly </Description>
       <Copyright/>
       <Packager>Javier Lopez</Packager>
       <URL>https://github.com/Javixl1/App-Builder</URL>
-      <Release_Notes>First release</Release_Notes>
+      <Release_Notes>build type fixed, executable extention added. reverted version number when it create an error</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -243,7 +243,7 @@ The package contain an User Interface friendly </Description>
         <Path>Source Distribution\Build.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29497773B3789A5FA6BAB9779234B9B7</GUID>
+      <GUID>EC1488129B7BB388402689A9C974BB00</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

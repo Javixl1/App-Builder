@@ -124,7 +124,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../VIPM/Source Distribution</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9BB7D56B-0819-46D3-9EB9-1252D971D817}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../VIPM/Source Distribution</Property>
@@ -133,7 +133,7 @@
 				<Property Name="Destination[1].path" Type="Path">../VIPM/Source Distribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3031832B-FD3E-4094-B6F9-02C14DF77AEE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4264A20-5A5E-40C2-8F3B-5E0BC4A511DB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/App-Builder Library.lvlib</Property>
